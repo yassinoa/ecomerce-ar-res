@@ -8,7 +8,7 @@
 export const products = [
   {
     id: 1,
-    title: "اتش بی الیت بوك الجیل الثانی",
+    title: "HP EliteBook 2e génération",
     image: "/images/products/laptops/l1.jpg",
     price: 750,
     rating: 4.5,
@@ -17,7 +17,7 @@ export const products = [
   },
   {
     id: 2,
-    title: "لابتوب ایسر نیترو 515-5",
+    title: "Ordinateur portable Acer Nitro 515-5",
     image: "/images/products/laptops/l2.jpg",
     price: 600,
     rating: 3.8,
@@ -26,7 +26,7 @@ export const products = [
   },
   {
     id: 3,
-    title: "لابتوب هواوی میت بوک 14",
+    title: "Ordinateur portable Huawei MateBook 14",
     image: "/images/products/laptops/l3.jpg",
     price: 800,
     rating: 4.6,
@@ -35,7 +35,7 @@ export const products = [
   },
   {
     id: 4,
-    title: "لابتوب جیمنق اسوس - 571GT",
+    title: "Ordinateur portable de jeu Asus - 571GT",
     image: "/images/products/laptops/l4.jpg",
     price: 950,
     rating: 4.1,
@@ -44,7 +44,7 @@ export const products = [
   },
   {
     id: 5,
-    title: "لابتوب اسوس تی یو اف 15",
+    title: "Ordinateur portable Asus TUF 15",
     image: "/images/products/laptops/l1.jpg",
     price: 700,
     rating: 4.5,
@@ -53,7 +53,7 @@ export const products = [
   },
   {
     id: 6,
-    title: "اسوس للالعاب F15",
+    title: "ASUS Gaming F15",
     image: "/images/products/laptops/l6.jpg",
     price: 990,
     rating: 4.8,
@@ -62,7 +62,7 @@ export const products = [
   },
   {
     id: 7,
-    title: "لینوفو ایدیا باد فلکس 5 شاشه 14",
+    title: "Lenovo IdeaPad Flex 5 écran 14",
     image: "/images/products/laptops/l7.jpg",
     price: 500,
     rating: 4.2,
@@ -71,7 +71,7 @@ export const products = [
   },
   {
     id: 8,
-    title: "مایکروسوفت سیرفس جو 2 بشاشه لمس",
+    title: "Microsoft Surface Go 2 avec écran tactile",
     image: "/images/products/laptops/l8.jpg",
     price: 850,
     rating: 4.7,
@@ -80,7 +80,7 @@ export const products = [
   },
   {
     id: 9,
-    title: "مایکروسوفت سیرفس برو 8 بشاشه 13",
+    title: "Microsoft Surface Pro 8 avec écran 13",
     image: "/images/products/laptops/l8.jpg",
     price: 900,
     rating: 4.1,
@@ -89,7 +89,7 @@ export const products = [
   },
   {
     id: 10,
-    title: "لابتوب فیفوبوك من اسوس 17",
+    title: "Ordinateur portable Asus VivoBook 17",
     image: "/images/products/laptops/l10.jpg",
     price: 680,
     rating: 3.5,
@@ -98,7 +98,7 @@ export const products = [
   },
   {
     id: 11,
-    title: "هاتف ابل ایفون 13 الجدید",
+    title: "Le nouveau téléphone Apple iPhone 13",
     image: "/images/products/mobiles/m1.jpg",
     price: 800,
     rating: 4.9,
@@ -107,7 +107,7 @@ export const products = [
   },
   {
     id: 12,
-    title: "هاتف سامسونج جالسکی الذکی M33",
+    title: "Smartphone Samsung Galaxy M33",
     image: "/images/products/mobiles/m2.jpg",
     price: 350,
     rating: 4.5,
@@ -116,7 +116,7 @@ export const products = [
   },
   {
     id: 13,
-    title: "جوال سامسونج جالسکی ام 32 شریحتی الاتصال",
+    title: "Téléphone double SIM Samsung Galaxy M32",
     image: "/images/products/mobiles/m3.jpg",
     price: 200,
     rating: 3.5,
@@ -125,7 +125,7 @@ export const products = [
   },
   {
     id: 14,
-    title: "جوال بوکو اکس 4 برو",
+    title: "Téléphone portable Poco X4 Pro",
     image: "/images/products/mobiles/m4.jpg",
     price: 250,
     rating: 4.5,
@@ -134,7 +134,7 @@ export const products = [
   },
   {
     id: 15,
-    title: "سامسونج جالسکی اف ای الجیل الرابع",
+    title: "Samsung Galsky FE 4G",
     image: "/images/products/mobiles/m5.jpg",
     price: 290,
     rating: 3.0,
@@ -143,7 +143,7 @@ export const products = [
   },
   {
     id: 16,
-    title: "فیفو ایکس دی اس 256 ازرق",
+    title: "Vivo XDS 256 Bleu",
     image: "/images/products/mobiles/m6.jpg",
     price: 750,
     rating: 5,
@@ -152,7 +152,7 @@ export const products = [
   },
   {
     id: 17,
-    title: "جوال ابل ایفون 12 الجدید",
+    title: "Le nouvel Apple iPhone 12",
     image: "/images/products/mobiles/m7.jpg",
     price: 700,
     rating: 4.5,
@@ -161,7 +161,7 @@ export const products = [
   },
   {
     id: 18,
-    title: "هاتف ذکی ثنائی شرائح",
+    title: "Smartphone double SIM",
     image: "/images/products/mobiles/m8.jpg",
     price: 500,
     rating: 4.5,
@@ -170,7 +170,7 @@ export const products = [
   },
   {
     id: 19,
-    title: "جوال شاومی بوکو سی 40",
+    title: "Téléphone portable Xiaomi Poco C40",
     image: "/images/products/mobiles/m9.jpg",
     price: 470,
     rating: 4.0,
@@ -179,7 +179,7 @@ export const products = [
   },
   {
     id: 20,
-    title: "جوال سامسوج جالسکی الذکی M52",
+    title: "Téléphone intelligent Samsung Galaxy M52",
     image: "/images/products/mobiles/m10.jpg",
     price: 850,
     rating: 5,
@@ -188,7 +188,7 @@ export const products = [
   },
   {
     id: 21,
-    title: "نوکیا A12",
+    title: "Nokia A12",
     image: "/images/products/mobiles/m11.jpg",
     price: 40,
     rating: 4.1,
@@ -197,7 +197,7 @@ export const products = [
   },
   {
     id: 22,
-    title: "سامسونج جالسکی ام 13 لایت بنظام",
+    title:"Samsung Galaxy M13 Lite avec système",
     image: "/images/products/mobiles/m12.jpg",
     price: 620,
     rating: 5,
@@ -206,7 +206,7 @@ export const products = [
   },
   {
     id: 23,
-    title: "هاتف هواوی نوفا 9",
+    title: "Téléphone Huawei Nova 9",
     image: "/images/products/mobiles/m13.jpg",
     price: 250,
     rating: 3.5,
@@ -215,7 +215,7 @@ export const products = [
   },
   {
     id: 24,
-    title: "الهاتف الذکی جالسکی ام 32 الجیل الخامس",
+    title: "Smartphone Galski M32 5G",
     image: "/images/products/mobiles/m14.jpg",
     price: 320,
     rating: 4.1,

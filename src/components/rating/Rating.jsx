@@ -1,5 +1,4 @@
 import './rating.css'
-
 const Rating = ({rating,reviews}) => {
   return (
     <div className="rating-wrapper">

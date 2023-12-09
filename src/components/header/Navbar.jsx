@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Navbar = ({setToggle,toggle}) => {
   return (
@@ -6,11 +7,11 @@ const Navbar = ({setToggle,toggle}) => {
         <div  className="navbar-close-icon">
           <i onClick={()=>setToggle(false)} className="bi bi-x-lg"></i>
         </div>
-        <ul onClick={()=>setToggle(false)} className="navbar-link">Accueil</ul>
-        <ul onClick={()=>setToggle(false)} className="navbar-link">Electronique</ul>
-        <ul onClick={()=>setToggle(false)} className="navbar-link">Cuisine</ul>
-        <ul onClick={()=>setToggle(false)} className="navbar-link">Homme</ul>
-        <ul onClick={()=>setToggle(false)} className="navbar-link">Femme</ul>
+        <ul><Link to='/' onClick={()=>setToggle(false)} className="navbar-link">Accueil</Link></ul>
+        <ul><Link to='/products' onClick={()=>setToggle(false)} className="navbar-link">Electronique </Link></ul>
+        <ul><Link to='/products' onClick={()=>setToggle(false)} className="navbar-link">Cuisine</Link></ul>
+        <ul><Link to='/products' onClick={()=>setToggle(false)} className="navbar-link">Homme</Link></ul>
+        <ul><Link to='/products' onClick={()=>setToggle(false)} className="navbar-link">Femme</Link></ul>
       </nav>
   )
 }

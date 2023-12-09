@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const TopHeader = ({setToggle}) => {
   return (
@@ -6,10 +7,13 @@ const TopHeader = ({setToggle}) => {
         <div onClick={()=>setToggle(true)} className="top-header-menu">
           <i className='bi bi-list'></i>
         </div>
+        <Link to='/'>
+
         <div className="top-header-logo">
           yassin shop
           <i className='bi bi-basket2'></i>
         </div>
+        </Link>
         <div className="top-header-text">Salut tout le monde</div>
         <div className="top-header-phone">
           
